@@ -36,5 +36,14 @@ Lets verify that we can run some commands! Try running the following:
 % cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 
+These commands respectively:
+- Go to the home directory
+- Show all the files in the home directory, including hidden files
+- Try to list the files in the home directory of another user
+- Copy a file
+- Read the file that was just copied
+
+Something interesting to note is that we cannot list the files of another user's home directory. This shows that we do not have sufficient permissions to do so.
+
 You should get output similar to the following:
 ![](command-test.png)
